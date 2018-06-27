@@ -1,0 +1,102 @@
+html {
+  font-size: 10px;
+  background: url(images/bruno-cervera-408707-unsplash.jpg) bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+.keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  min-height: 100vh;
+  -ms-flex: 1;
+  flex: 1;
+  vertical-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid #191818;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  -webkit-transition: all .07s ease;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(25, 19, 19, 0.4);
+  text-shadow: 0 0 .5rem black;
+  cursor: pointer;
+}
+
+.playing {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-color: #ffc600;
+  -webkit-box-shadow: 0 0 1rem #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+.credit {
+    position: relative;
+    bottom: 50px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+.credit .love{
+    color: #f21f58;
+}
+.credit a {
+    text-decoration: none;
+    color: #f21f58;
+}
+
+@media screen and (max-width: 680px){
+    .keys{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .key{
+        border: .1rem solid black;
+        margin: 2;
+        padding: 0;
+    }
+}
