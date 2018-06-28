@@ -12,5 +12,5 @@ Here what I have added in addition:
 
 And now, mobile users will be able to use this cool app.
 
-To access it online visit: <a href="https://www.ashrafulais.github.io/drumkit">ashrafulais.github.io/drumkit</a>
+To access it online visit: <a href="https://ashrafulais.github.io/drumkit">ashrafulais.github.io/drumkit</a>
 
